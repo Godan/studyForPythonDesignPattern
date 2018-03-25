@@ -1,20 +1,34 @@
 @startuml
 
-class User {
-  username
-  password
-  +sign_in()
+class Iterator {
+  +hasNext()
+  +next()
 }
 
-class Group {
-  name
+class Book {
+  -name
+  +getName()
 }
 
-class Member {
-  roles
+class BookShelf {
+  -last
+  -book
+  +getBookAt()
+  +appendBook()
+  +getLength()
+  +iterator()
 }
 
-User .. Member
-Group .. Member
+class BookShelfIterator{
+  - bookShelf
+  - index
+  +hasNext()
+  +next()
+}
+
+Iterator <.up.BookShelfIterator
+BookShelf o-> Book
+BookShelf <-down-o BookShelfIterator
+
 
 @enduml

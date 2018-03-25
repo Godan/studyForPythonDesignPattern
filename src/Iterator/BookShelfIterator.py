@@ -1,7 +1,7 @@
 import Iterator
 import BookShelf
 
-class BookShelfIterator():
+class BookShelfIterator(Iterator):
 
     def __init__(self, BookShelf):
         self._bookShelf = BookShelf
