@@ -1,9 +1,5 @@
 @startuml
 
-class Iterator {
-  +hasNext()
-  +next()
-}
 
 class Book {
   -name
@@ -26,7 +22,6 @@ class BookShelfIterator{
   +next()
 }
 
-Iterator <.up.BookShelfIterator
 BookShelf o-> Book
 BookShelf <-down-o BookShelfIterator
 
