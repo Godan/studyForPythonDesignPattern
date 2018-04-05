@@ -17,6 +17,7 @@
 
 を実装しています。
 
+
 ``` Python
 from BookShelfIterator import BookShelfIterator
 
@@ -76,6 +77,8 @@ class BookShelfIterator(Iterator):
 
 ```
 
+#### UML
+[![](http://www.plantuml.com/plantuml/svg/RL112i903Bpd5NjKP7yWKhq9qeilI6riYsrIkX4Buj_DTYiMz9JCP38JaWN5GUzT2m2N5aDm1v6RUu9pdh4ZgvkADBTsjORNKdIkgRqcfN4QQs7ql14LUxKTWzZtn6La3AVnYRZIEi56QK2LuM_0SHvEEQxuq1DgkAGnEjGOSXhdDBOkMNsl5B-RB1VKrfVoO2-_KG2GsRtnAMy0)](http://www.plantuml.com/plantuml/uml/RL112i903Bpd5NjKP7yWKhq9qeilI6riYsrIkX4Buj_DTYiMz9JCP38JaWN5GUzT2m2N5aDm1v6RUu9pdh4ZgvkADBTsjORNKdIkgRqcfN4QQs7ql14LUxKTWzZtn6La3AVnYRZIEi56QK2LuM_0SHvEEQxuq1DgkAGnEjGOSXhdDBOkMNsl5B-RB1VKrfVoO2-_KG2GsRtnAMy0)
 
 ### 実際に使うプログラム
 
