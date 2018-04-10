@@ -4,7 +4,7 @@ class Banner:
         self.string = string
 
     def showWithParen(self):
-        print "(" + self.string + ")"
+        print("(" + self.string + ")")
 
     def showWithAster(self):
-        print "*" + self.string + "*"
+        print("*" + self.string + "*")
