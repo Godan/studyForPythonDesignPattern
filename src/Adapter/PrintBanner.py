@@ -1,6 +1,7 @@
+from Print import Print
 from Banner import Banner
 
-class PrintBanner(Banner):
+class PrintBanner(Print):
 
     def __init__(self, strings):
         self.banner = Banner(strings)
